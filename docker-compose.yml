@@ -9,6 +9,7 @@ services:
       - /etc/worldhistorymap.io/certs:/certs
     ports:
       - 443:443
+      - 6000:6000
     restart: always
 
   react1:
